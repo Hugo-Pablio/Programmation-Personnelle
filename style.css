@@ -8,27 +8,25 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
-
-/* Barre de navigation */
 nav{
   display:flex;
   flex-wrap:wrap;
   justify-content: space-between;
   position:sticky;
   color :#fff;
-  top: 0;
-  padding: 10px 0px;
+  top : 0;
+  padding: 20px 0px;
   background-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: -40px;
 }
 nav .onglets{
   display:flex;
   flex-wrap:wrap;
-  margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 nav .onglets a {
-  margin-right: 20px;
+  margin-right: 40px;
   cursor:pointer;
   color:white;
   text-decoration: none;
@@ -38,27 +36,10 @@ nav .onglets a:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   }
-nav .buttons button{
-  padding: 13px 20px;
-  color: #fff;
-  border:none;
-  font-size: 15px;
-  cursor:pointer;
-  outline:none;
-}
-nav .buttons .login{
-  background-color: inherit;
-  margin-right: 10px;
-  color: #8f8f8f;
-}
-nav .buttons .register{
-  background-color: #f54266;
-}
-/* Fin de la barre de navigation*/
 
 .txtimage{
   margin-top: 0px;
-  background: url("Maisondevant.jpg");
+  background: url("Maisondevant-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -73,9 +54,13 @@ h1{
   color:rgb(0, 0, 0)
 }
 
+.contenupage{
+  margin-left: 30px;
+}
+
 footer{
   background-color: #1a1a1a;
   padding: 5px 5px;
   color:white;
-  margin: 0px;
+  padding-left: 50px;
 }

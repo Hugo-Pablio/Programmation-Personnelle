@@ -8,28 +8,27 @@ body{
   padding-bottom: 0px;
   font-family: 'Lato', sans-serif;
 }
-
-
-/* Barre de navigation */
 nav{
   display:flex;
   flex-wrap:wrap;
   justify-content: space-between;
   position:sticky;
   color :#fff;
-  top: 0;
-  padding: 10px 0px;
+  padding: 20px 0px;
+  top : 0;
+  margin-bottom: -40px;
   background-color: rgba(0, 0, 0, 0.8);
 }
 nav .onglets{
   display:flex;
   flex-wrap:wrap;
-  margin-top: 10px;
-  margin-left: 20px;
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-bottom: 0px;
 }
 
 nav .onglets a {
-  margin-right: 20px;
+  margin-right: 40px;
   cursor:pointer;
   color:white;
   text-decoration: none;
@@ -40,10 +39,8 @@ nav .onglets a:hover {
   text-decoration-thickness: 2px;
   }
 
-/* Fin de la barre de navigation*/
 
-.txtimage{
-  margin-top: 0px;
+header{
   background: url("bandeauhabitants.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,7 +60,6 @@ footer{
   background-color: #1a1a1a;
   padding: 5px 5px;
   color:white;
-  margin: 0px;
 }
 
 .s{
