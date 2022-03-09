@@ -8,37 +8,65 @@ body{
   padding-bottom: 0px;
   font-family: 'Lato', sans-serif;
 }
-nav{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: space-between;
-  position:sticky;
-  color :#fff;
-  padding: 20px 0px;
-  top : 0;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  background-color: rgb(0, 0, 0,0.8);
   margin-bottom: -40px;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-nav .onglets{
-  display:flex;
-  flex-wrap:wrap;
-  margin-top: 0px;
-  margin-left: 40px;
-  margin-bottom: 0px;
 }
 
-nav .onglets a {
-  margin-right: 40px;
-  cursor:pointer;
-  color:white;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 40px;
   text-decoration: none;
+  cursor: pointer;
 }
 
-nav .onglets a:hover {
+li a:hover{
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  }
+}
 
+.dropbtn::after{
+  content : " v";
+  font-size: 15px;
+  padding-top: -10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  margin-top: 60px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 header{
   background: url("bandeauhabitants.jpg");
