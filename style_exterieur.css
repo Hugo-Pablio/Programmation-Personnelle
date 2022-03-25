@@ -8,6 +8,18 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
+img{
+
+  width: 672px;
+  height: 378px;
+  -moz-border-radius:10px 0;
+-webkit-border-radius:10px 0;
+border-radius:10px 0;
+
+          
+ 
+}
+
 ul {
     list-style-type: none;
     margin: 0;
