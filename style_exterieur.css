@@ -10,11 +10,11 @@ body{
 
 img{
 
-  width: 672px;
-  height: 378px;
-  -moz-border-radius:10px 0;
--webkit-border-radius:10px 0;
-border-radius:10px 0;
+  width: 336px;
+  height: 189px;
+  border-radius:10px 10px;
+
+  
 
           
  
@@ -78,4 +78,26 @@ ul {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  header{
+    background: url("Maisondevant-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 0px;
+    background-color: #141414;
+  }
+
+  h1{
+    text-align:center;
+    font-size: 60px;
+    padding: 150px;
+    transition: transform 2.5s;
+    color:rgb(0, 0, 0)
+  }
+
+  .visiteimg{
+    padding-left: 150px;
+
   }
