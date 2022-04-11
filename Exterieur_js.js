@@ -12,8 +12,8 @@ if (zoomé == 1){
 else{
     largeurImage = image.style.width;
     hauteurImage = image.style.height;
-    image.style.width = "auto";
-    image.style.height = "auto";
+    image.style.width = 672;
+    image.style.height = 378;
     zoomé = 1;
 }
 
