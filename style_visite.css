@@ -75,14 +75,6 @@ ul {
     display: block;
   }
 
-  header{
-    background: url("Maisondevant-min.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0px 0px;
-    background-color: #141414;
-  }
 
   h1{
     text-align:center;
