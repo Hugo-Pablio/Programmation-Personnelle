@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maison des CREPINS</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="visite.js"></script>
+</head>
+<body>
+  <ul>
+      <li><a>Accueil</a></li>
+      <li><a href ="Maison_habitants.html">Habitants</a></li>
+      <div class="dropdown">
+        <li><a class="dropbtn">Visite</a></li>
+        <div class="dropdown-content">
+          <a href="Exterieur.html"> Extérieur </a>
+          <a href="cuisine.html"> Cuisine</a>
+          <a href="cuisine-nouvelle.html"> Cuisine nouvelle</a>
+          <a href="#"> Salle à manger </a>
+          <a href="salon.html"> Salon </a>          
+          <a href="Chambre_Hugo.html"> Chambre de Hugo</a>
+          <a href="salledebain.html"> Salle de Bain</a>
+        </div>
+      </div>
+  </ul>
+    <header style="
+    background: url('imgcuisine/Cuisine_ensemble.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 0px;
+    background-color: #141414;">
+
+<h1>Visite de la cuisine</h1>
+</header>
+  <div class="visiteimg">
+  <h2> Tour de la cuisine </h2>
+  <img src="imgcuisine/Cuisine_ensemble.jpg" onclick="zoom(this)"/>  
+  <img src="imgcuisine/Cuisine_coinfour.jpg" onclick="zoom(this)"/>
+  <h2> Equipements </h2>
+  <img src="#" onclick="zoom(this)"/>
+  <img src="#" onclick="zoom(this)"/>
+  <img src="#" onclick="zoom(this)"/>
+  </div>
+</body>
