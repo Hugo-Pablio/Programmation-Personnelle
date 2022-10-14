@@ -1,8 +1,6 @@
 var largeurImage;
 var hauteurImage;
 
-var zoomé;
-
 function zoom(image) {
     if (zoomé == 1){
         image.style.width = largeurImage;

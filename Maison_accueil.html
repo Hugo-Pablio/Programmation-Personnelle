@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <title>Maison des CREPINS</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-  <ul>
-      <li><a>Accueil</a></li>
-      <li><a href ="Maison_habitants.html">Habitants</a></li>
-      <div class="dropdown">
-        <li><a class="dropbtn">Visite</a></li>
-        <div class="dropdown-content">
-          <a href="Exterieur.html"> Extérieur </a>
+  <nav>
+    <div><a>Accueil</a></div>
+    <div><a href="Maison_habitants.html">Habitants</a></div>
+    <div><a class="visite">Visite</a>
+      <div class="submenu">
+        <a href="Exterieur.html"> Extérieur </a>
           <a href="cuisine.html"> Cuisine</a>
-          <a href="cuisine-nouvelle.html"> Cuisine nouvelle</a>
           <a href="#"> Salle à manger </a>
           <a href="salon.html"> Salon </a>          
           <a href="Chambre_Hugo.html"> Chambre de Hugo</a>
-          <a href="salledebain.html"> Salle de Bain</a>          
-        </div>        
+          <a href="salledebain.html"> Salle de Bain</a>
       </div>
-      <li><a href="participe.html"> Participer</a></li>
-  </ul>
-    <header style="
+    </div>
+  </nav>
+  <header style="
     background: url('imgexterieur/Maisondevant.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,22 +30,25 @@
     margin: 0px 0px;
     background-color: #141414;">
 
-      <h1> Accueil </h1>
-    </header>
-  <div class="contenupage">    
-    <h2>Où se trouve la maison des Crepins ?</h2>
-    <p>La Maison des Crepins se situe au coeur des cévènes dans le petit village Les Mages <br/> Elle se situe au
-      chemin des Truquailles, un quartier entre le Coussac et les Truquailles. Un quartier tranquile où
-      la nature reste totalement présente.
-    </p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d611.4958137186144!2d4.16848062924047!3d44.22288889869412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x23471944003a3c7f!2zNDTCsDEzJzIyLjQiTiA0wrAxMCcwOC41IkU!5e1!3m2!1sfr!2sfr!4v1643555928663!5m2!1sfr!2sfr" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <img src="imgexterieur/Lesmagesdehaut.jpg"/>
+    <h1> Accueil </h1>
+  </header>
+  <div class="blocdecouvrir">
+    <div class="decouvrirtxt">
+      <h2>Visiter La Maison !</h2>
+      <p> Découvrer la maison des CREPINS et son lieu de vie </p>
+    </div>
+    <div class="blocimg">
+      <img src="imgexterieur/map.png" alt="Emplacement de la maison" />
+      <img src="imgexterieur/Lesmagesdehaut.jpg" alt="Image du village" />
+      <a href="">C'est parti !</a>
+    </div>
   </div>
-  
-  
+
+
   <footer>
-    <p>La maison des CREPINS est un espace de vie, veuiller le respecter <br/> 
+    <p>La maison des CREPINS est un espace de vie, veuiller le respecter
       Nous nous escusons d'avance pour les problèmes de bruits persistants </p>
   </footer>
 </body>
+
 </html>
