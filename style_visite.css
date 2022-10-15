@@ -9,7 +9,6 @@ body{
 }
 
 img{
-
   width: 336px;
   height: 189px;
   border-radius:10px 10px;
@@ -85,6 +84,6 @@ ul {
   }
 
   .visiteimg{
-    padding-left: 150px;
+    margin-left: 150px;
 
   }
