@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+  font-family: brandon;
+  src: url(font/BrandonText.otf);
+}
 
 body{
   background-color: rgb(255, 255, 255);
@@ -7,7 +12,6 @@ body{
   margin:0px;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -36,11 +40,13 @@ nav div a {
   padding: 20px 40px;
   text-decoration: none;
   cursor: pointer;
+  font-size: 16px;
 
 }
 
 nav div a:hover{
-  text-decoration: underline;  
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 .submenu{
@@ -84,6 +90,7 @@ footer{
   padding: 5px 5px;
   color:white;
   padding-left: 50px;
+  font-weight: bold;
 }
 
 img{
@@ -94,14 +101,30 @@ img{
 
 
 h2{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 42px;
+  font-family: 'brandon';
+  font-size: 45px;
 }
 
 p{
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.contenupage a{
+  display: block;
+  margin-top: 50px;
+  border-radius : 10px 10px;
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  background-color: #1F85DE;
+  font-family: 'brandon';
+}
+
+.contenupage a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 .blocgauche{
@@ -119,15 +142,7 @@ p{
 }
 
 .blocgauchetxt a{  
-  display: block;
-  margin-top: 50px;
-  border-radius : 10px 10px;
-  color:white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px 30px;
   margin-right: 240px;
-  background-color: #1F85DE;
 }
 
 .blocdroit{
@@ -150,13 +165,5 @@ p{
 }
 
 .blocdroittxt a{  
-  display: block;
-  margin-top: 50px;
-  border-radius : 10px 10px;
-  color:white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px 30px;
   margin-left: 210px;
-  background-color: #1F85DE;
 }
