@@ -3,28 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style_visite.css">
+  <link rel="stylesheet" href="styles/style_visite.css">
   <script src="visite.js"></script>
   <title>Maison des CREPINS</title>
 </head>
 <body>
-  <ul>
-    <li><a href ="index.html">Accueil</a></li>
-    <li><a href="Maison_habitants.html">Habitants</a></li>
-    <div class="dropdown">
-      <li><a class="dropbtn">Visite</a></li>
-      <div class="dropdown-content">
+  <nav>
+    <div><a href="index.html">Accueil</a></div>
+    <div><a href="Maison_habitants.html">Habitants</a></div>
+    <div><a href="lesmages.html">Les Mages</a></div>
+    <div><a href="maison.html" class="visite">Maison</a>
+      <div class="submenu">
         <a href="Exterieur.html"> Extérieur </a>
-          <a href="#"> Cuisine</a>
-          <a href="#"> Salle à manger </a>
-          <a href="salon.html"> Salon </a>          
-          <a href="Chambre_Hugo.html"> Chambre de Hugo</a>
-          <a href="salledebain.html"> Salle de Bain</a>
+        <a href="cuisine.html"> Cuisine</a>
+        <a href="cuisine-nouvelle.html">Cuisine neuve</a>
+        <a href="#"> Salle à manger </a>
+        <a href="salon.html"> Salon </a>
+        <a href="Chambre_Hugo.html"> Chambre de Hugo</a>
+        <a href="salledebain.html"> Salle de Bain</a>
       </div>
     </div>
-</ul>
+  </nav>
 <header style="
-background: url('imgcuisine/cuisine_global-min.jpg');
+background: url('img/imgcuisine/cuisine_global-min.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -34,10 +35,10 @@ background-color: #141414;">
 </header>
   <div class="visiteimg">
   <h2> Tour de la cuisine </h2>
-  <img src="imgcuisine/cuisine_global-min.jpg" onclick="zoom(this)"/>  
-  <img src="imgcuisine/Cuisine_coin-min.jpg" onclick="zoom(this)"/>
-  <img src="imgcuisine/Cuisine_fenêtre-min.jpg" onclick="zoom(this)"/>
-  <img src="imgcuisine/Cuisine_frigo-min.jpg" onclick="zoom(this)"/>
+  <img src="img/imgcuisine/cuisine_global-min.jpg" onclick="zoom(this)"/>  
+  <img src="img/imgcuisine/Cuisine_coin-min.jpg" onclick="zoom(this)"/>
+  <img src="img/imgcuisine/Cuisine_fenêtre-min.jpg" onclick="zoom(this)"/>
+  <img src="img/imgcuisine/Cuisine_frigo-min.jpg" onclick="zoom(this)"/>
   <h2> Equipements </h2>
   <img src="#" onclick="zoom(this)"/>
   <img src="#" onclick="zoom(this)"/>

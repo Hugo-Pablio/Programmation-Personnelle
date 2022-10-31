@@ -4,57 +4,48 @@
 <head>
   <meta charset="UTF-8">
   <title>Maison</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <script src="meteo.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
   <nav>
     <div><a>Accueil</a></div>
     <div><a href="Maison_habitants.html">Habitants</a></div>
-    <div><a class="visite">Visite</a>
-      <div class="submenu">
-        <a href="lesmages.html">Les Mages</a>
-        <a href="Exterieur.html"> Extérieur </a>
-        <a href="cuisine.html"> Cuisine</a>
-        <a href="#"> Salle à manger </a>
-        <a href="salon.html"> Salon </a>
-        <a href="Chambre_Hugo.html"> Chambre de Hugo</a>
-        <a href="salledebain.html"> Salle de Bain</a>
-      </div>
-    </div>
+    <div><a href="lesmages.html">Les Mages</a></div>
+    <div><a href="maison.html">Maison</a></div>
   </nav>
 
-  <header style="
-    background: url('imgexterieur/Maisondevant.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0px 0px;
-    background-color: #141414;">
-    <h1>  </h1>
-  </header>
+  <div class="boxes">
+  <div class ='boxmeteo'><h3>Température : </h2><p id="met"></p><p>°C</p></div>
+  <div class ='boxactu'><h3>Actualités :  Robot aspirateur et nouveau WC</h2></div>
+  </div>
+  
+  <video src="img/header-cropmp4.mp4" autoplay playsinline muted loop></video>
 
   <div class="contenupage">
+
     <div class="blocgauche">
-      <div class="blocgaucheimg">
-        <img src="imgexterieur/Lesmagesdehaut.jpg" alt="Image du village">
-      </div>
-      <div class="blocgauchetxt">
+      <div class="blocimg">
+        <img src="img/lesmages/Lesmagesdehaut.jpg" alt="Image du village">
+    </div>
+    <div class="blocgauchetxt">
         <h2>Visiter les Mages</h2>
         <p> Découvrez le village des mages situé au coeur des Cévennes, ainsi que les différents poles d'activités de
           celle-ci</p>
-        <a href="">Commencez !</a>
-      </div>
+        <a href="lesmages.html">Commencez !</a>
     </div>
+  </div>
 
     <div class="blocdroit">
       <div class="blocdroittxt">
         <h2>Visiter La Maison</h2>
         <p> Découvrez la maison des CREPINS et son lieu de vie </p>
-        <a href="">Commencez !</a>
+        <a href="maison.html">Commencez !</a>
       </div>
       <div class="blocimg">
-        <img src="imgexterieur/Maisondevant.jpg" alt="Maison">
+        <img src="img/imgexterieur/Maisondevant.jpg" alt="Maison">
       </div>
     </div>
   </div>

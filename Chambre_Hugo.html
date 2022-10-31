@@ -3,28 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style_visite.css">
+  <link rel="stylesheet" href="styles/style_visite.css">
   <script src="visite.js"></script>
   <title>Maison des CREPINS</title>
 </head>
 <body>
-  <ul>
-    <li><a href ="index.html">Accueil</a></li>
-    <li><a href="Maison_habitants.html">Habitants</a></li>
-    <div class="dropdown">
-      <li><a class="dropbtn">Visite</a></li>
-      <div class="dropdown-content">
-          <a href="Exterieur.html"> Extérieur </a>
-          <a href="cuisine.html"> Cuisine</a>
-          <a href="#"> Salle à manger </a>
-          <a href="salon.html"> Salon </a>          
-          <a href="#"> Chambre de Hugo</a>
-          <a href="salledebain.html"> Salle de Bain</a>
+  <nav>
+    <div><a href="index.html">Accueil</a></div>
+    <div><a href="Maison_habitants.html">Habitants</a></div>
+    <div><a href="lesmages.html">Les Mages</a></div>
+    <div><a href="maison.html" class="visite">Maison</a>
+      <div class="submenu">
+        <a href="Exterieur.html"> Extérieur </a>
+        <a href="cuisine.html"> Cuisine</a>
+        <a href="#"> Salle à manger </a>
+        <a href="salon.html"> Salon </a>
+        <a href="Chambre_Hugo.html"> Chambre de Hugo</a>
+        <a href="salledebain.html"> Salle de Bain</a>
       </div>
     </div>
-</ul>
+  </nav>
 <header style="
-background: url('imgexterieur/Maisondevant.jpg');
+background: url('img/imgexterieur/Maisondevant.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -34,7 +34,7 @@ background-color: #141414;">">
 </header>
   <div class="visiteimg">
   <h2> Présentation de la Chambre de Hugo </h2>
-    <video width="288" height="512" controls src="imgchambrehugo/Video_chambre_hugo.mp4" autoplay loop muted>
+    <video width="288" height="512" controls src="img/imgchambrehugo/Video_chambre_hugo.mp4" autoplay loop muted>
          Non pris en charge par le navigateur </video>
   </div>
 </body>
