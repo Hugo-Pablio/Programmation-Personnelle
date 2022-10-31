@@ -72,7 +72,7 @@ nav div:hover .submenu{
 }
 
 header{
-  background-image: url("/img/lesmages/Lesmagesdehaut.jpg");
+  background-image: url("img/lesmages/Lesmagesdehaut.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

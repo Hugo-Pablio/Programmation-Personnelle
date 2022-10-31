@@ -69,7 +69,7 @@ nav div:hover .submenu{
 }
 
 header{
-  background-image: url("/img/imghabitants/bandeauhabitants.jpg");
+  background-image: url("img/imghabitants/bandeauhabitants.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
