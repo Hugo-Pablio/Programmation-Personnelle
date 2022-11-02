@@ -8,10 +8,8 @@
 
 body{
   background-color: rgb(255, 255, 255);
-  padding: 0px;
   margin:0px;
   margin-bottom: 0px;
-  padding-bottom: 0px;
 }
 
 nav {
@@ -20,7 +18,6 @@ nav {
   background-color: rgba(38, 50, 58,0.9);
   flex-direction: row;
   position: sticky;
-  top : 0px;
   z-index: 5;
 }
 
@@ -40,7 +37,6 @@ nav div a {
   text-decoration: none;
   cursor: pointer;
   font-size: 16px;
-
 }
 
 nav div a:hover{
@@ -70,6 +66,34 @@ nav div:hover .submenu{
   text-decoration : none;  
 }
 
+.burger{
+  display: none;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  background-color: white;
+}
+
+.burger a{
+  text-decoration: none;
+  color : black;
+  font-size: 20px;
+}
+
+#menu2 div{
+  border-top : 1px solid black;
+  padding: 15px 0%;
+}
+
+#menu2{
+  display: none;
+  background-color: #ededeb;
+}
+
+.burger:hover #menu2{
+  display: block;
+  visibility: visible;
+}
 
   h1{
     text-align:center;
@@ -87,7 +111,7 @@ footer{
   font-weight: bold;
 }
 
-img{
+.contenupage img{
   border-radius: 10px 10px;
   max-width: 950px;
   height: auto;
@@ -106,13 +130,13 @@ p{
 
 h3{
   font-family: 'brandon';
-  font-size: 20px;
+  font-size: 130%;
 }
 
 .boxes{
-  
   display: flex;
   flex-direction: row;
+  
 }
 
 .boxes div p{
@@ -128,21 +152,18 @@ h3{
   background-color: rgb(38, 50, 58);
   padding: 0.2% 0.5%;
   border-radius: 10px 10px;
-  margin-top: 40%;
-  
+  margin-top : -3%;
 }
 .boxmeteo {
-  margin-left: 20%
+  margin-left: 20%;
+  flex-shrink: 1;
 }
 
 .boxactu{
   margin-left: 50%;
+  flex-shrink: 2;
   
 }
-
-
-
-
 
 .contenupage a{
   margin-top: 50px;
@@ -202,6 +223,21 @@ video{
   height: 100%;
   object-fit: contain;
   z-index: -1;
+}
+
+@media(max-width: 784px){
+  .boxes{
+    display: block;
+    position: static;
+  }
+
+  nav{
+    display: none;
+  }
+
+  .burger{
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 600px) {
