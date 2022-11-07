@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 
 @font-face {
-  font-family: brandon;
-  src: url(/font/BrandonText.otf);
+  font-family: 'brandon';
+  src: url(https://hugocrp.github.io/Programmation-Personnelle/font/BrandonText.otf);
 }
 
 body{
