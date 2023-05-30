@@ -8,11 +8,8 @@
 
 body{
   background-color: rgb(255, 255, 255);
-  padding: 0px;
+  font-family: 'Roboto', sans-serif;
   margin:0px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  font-family: 'Lato', sans-serif;
 }
 nav {
   display: flex;
@@ -32,7 +29,6 @@ nav > div{
   content: ' ▾';
   font-size: 16px;
 }
-
 
 nav div a {
   display: inline-block;
@@ -72,7 +68,7 @@ nav div:hover .submenu{
 }
 
 header{
-  background-image: url("img/lesmages/Lesmagesdehaut.jpg");
+  background-image: url("/img/lesmages/Lesmagesdehaut.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -97,7 +93,7 @@ h1{
 h2{
   margin-left: 2%;
   margin-right: 2%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'brandon', sans-serif;
   text-align: left;
   font-size: 50px;
   color:rgba(0, 0, 0, 0.7)
@@ -108,7 +104,6 @@ h4{
 }
   
 p{
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
